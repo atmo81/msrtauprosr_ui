@@ -1,0 +1,67 @@
+{
+  "app.headline": "Developed by AM",
+  "app.confidentiality": "© 2023-2024 msrtauprosr Ltd All Rights Reserved",
+
+  "txbSearch.searchButton": "Search",
+  "txnSvc.error": "Oops! try again later!",
+
+  "form.username": "User Name",
+  "form.pwd": "Password",
+  "form.login": "Sign In",
+  "global.signout": "Sign out",
+
+  "navigage.back": "Back",
+
+  "home.title": "Home Page MSRTauProSR",
+  "home.enter": "Enter",
+
+
+  "login.title": "Sign in to MSRTauProSR",
+  "login.username": "Username",
+  "login.pwd": "Password",
+  "login.login": "Sign In",
+
+
+  "placeholder.last": "tmp",
+  "userentry.titlenew": "New User",
+  "userentry.titleedit": "Edit User",
+  "userentry.fname": "First Name",
+  "userentry.lname": "Last Name",
+  "userentry.username": "UserName",
+  "userentry.password": "Password",
+  "userentry.isenabled": "Is Enabled",
+  "userentry.usertype" : "User Type",
+  "userlist.titleform": "Users List",
+  "userlist.newuser": "New User",
+
+  "risksentry.head": "MSR TauProSR setpoint and limit values",
+  "risksentry.titlenew": "The following target and limit valuses are used to calculate the risk of window fogging and the resulting alarm:",
+  
+  "risksentry.inform": "Please enter the new value here? Attention: the new value will be included in the calculations immediastely from the time it is saved. Only chang the value if you are aware of the consequences!",
+  "risksentry.old.value": "Old Value",
+  "risksentry.new.value": "New Value",
+  "risksentry.text": "Item text",
+  "risksentry.save": "Save",
+  "risksentry.cancel": "Cancel",
+
+  "risks.traffic.control":"Verkehrslenkung (Sammelalarm)",
+  "risks.tc.fogging.limit":"Beschlagsgrenzwert",
+  "risks.tc.fog.limit":"Nebelgrenzwert",
+  "risks.tc.collective.alarm": "Sammelalarm",
+  "risks.tc.collective.alarm.minimaldauer": "Minimaldauer",
+  "risks.tc.collective.alarm.minimaldauer.nach": "nach Datenfehler",
+
+  "risks.tunnel.ventilation":"Tunnellüftung (Lüftungsanforderung)",
+  "risks.tv.dew.point.different":"Taupunktdifferenz-Freigabegrenzwert",
+  "risks.tv.duration.ventualtion": "Laufzeit der Lüftungsanforderung für Mittenabsaugung",
+  "risks.tv.blocking.period": "Sperrdauer für Lüftungsanforderung",
+
+  "risks.sensor.monitoring":"Sensorüberwachung(Sensorfehler)",
+  "risks.sm.dp.sensor.different.limit1":"DP-Sensordifferenz-Grenzwert 1 (Aussen/Portal/Mitte)",
+  "risks.sm.dp.sensor.different.limit2":"DP-Sensordifferenz-Grenzwert (zwischen Portal + Mitte)",
+  "risks.sm.block.error":"Blockfehler (Zusammenhängende Fehlerzeiten)",
+  "risks.sm.dp.totalerror":"Summenfehler (nicht zusammenhangende Fehlersumme)",
+  "risk.on": "ON",
+  "risk.off":"OFF"
+
+}

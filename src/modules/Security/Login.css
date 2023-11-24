@@ -1,0 +1,85 @@
+/*
+  Style for Login Module
+
+ */
+
+
+.login-form {
+  margin-top: 60px;
+}
+
+.login-title {
+  /* margin-top: 50px; */
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgba(0,0,0,0.87);
+}
+
+
+.login-label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgba(0,0,0,0.87);
+}
+
+ .login-input {
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  border: 1px solid #ADADAD;
+  border-radius: 2px;
+
+  padding: 0 10px;
+  height: 48px;
+  width: 100%;
+  line-height: 48px;
+  background-color: #edfcee !important;
+  /* text-align: center; */
+
+  color: black;
+  font-size: 14px;
+
+}
+
+.login-input:focus {
+  outline: none;
+  border: solid 1px #8c8c8c;
+  background-color: #edfcee !important;
+}
+
+.login-button {
+  margin-top: 20px;
+  border: 2px solid blue;
+  border-width: 0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 50px;
+  width: 100%;
+  background-color: #6ca056;
+  /* background-color: #323232; */
+  text-align: center;
+
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+
+}
+
+.login-button:hover {
+  cursor: pointer;
+  color: #323232;
+
+}
+
+.login-button:disabled {
+    border-color: #E0E0E0;
+    background-color: #E0E0E0;
+    color: #666666;
+}
+
+.login-button:disabled:hover {
+  cursor: default;
+}

@@ -1,0 +1,343 @@
+/*
+  Base style
+
+  Includes:
+    - reset
+    - framework
+    - themes
+    - tag/element styling
+ */
+
+
+/* TODO: move styles from index.html to here */
+
+body {
+
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  overflow-y: scroll;
+  /* footer positioning */
+  position: relative;
+  padding-bottom: 72px;
+  /* same height as the footer */
+}
+
+A {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+  content: ' ';
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+}
+
+h2 {
+  font-weight: normal;
+  color: #003b64;
+  margin-bottom: 0px;
+  font-size: 24px;
+}
+
+select::-ms-expand {
+  border: none;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* Buttons - unused?                                                                                       */
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+.button--primary {
+  text-align: center;
+  background-color: #007fd8;
+  color: #ffffff;
+  transition: background 0.3s ease;
+  box-shadow: 0px 2px 0px 0px #003b64;
+  border-radius: 3px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.button--primary:hover {
+  background-color: #309be7;
+}
+
+.button--primary[disabled] {
+  background-color: #c5c4c4;
+  color: #312c2c;
+  cursor: not-allowed;
+}
+
+.button--primary[disabled]:hover {
+  background-color: #c5c4c4;
+}
+
+.button--primary.active {
+  background-color: #00385f;
+  font-weight: bold;
+}
+
+.button--primary.small {
+  padding: 0 30px;
+  min-width: 140px;
+  height: 35px;
+}
+
+.button--reset {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  color: #aaa;
+  text-decoration: underline;
+}
+
+.button--reset:hover {
+  color: #8f8b8b;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* Error box   - unused?                                                                                   */
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+.box--error {
+  border-radius: 3px;
+  padding: 12px;
+  color: #d8000c;
+  background-color: #ffbaba;
+  margin-bottom: 10px;
+  width: 280px;
+}
+
+.box--error .octicon {
+  padding-right: 10px;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+/* Tabs   - unused?                                                                                        */
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+.react-tabs {
+  margin: 40px 0 0 0;
+  outline: none;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 2px solid #003b64;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  /*bottom: -1px;*/
+  position: relative;
+  list-style: none;
+  padding: 8px 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: #c5c4c4;
+  color: black;
+  border-radius: 4px 4px 0 0;
+  transition: background 0.3s linear;
+  text-transform: uppercase;
+}
+
+.react-tabs__tab:first-child {
+  margin-left: 10px;
+}
+
+.react-tabs__tab:hover {
+  opacity: 0.9;
+}
+
+.react-tabs__tab--selected {
+  background-color: #003b64;
+  border-color: #aaa;
+  color: white;
+  cursor: default;
+  font-weight: bold;
+}
+
+
+/* --------    styles for alert dialog ---- */
+
+.react-confirm-alert {
+  padding: 0;
+  text-align: center;
+}
+
+.react-confirm-alert>h1 {
+  display: block;
+  padding: 10px 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: #e37222;
+  font-size: 100px;
+  text-align: center;
+}
+
+.react-confirm-alert>h3 {
+  display: block;
+  margin: 20px 30px;
+  line-height: 1.42;
+  color: black;
+}
+
+.react-confirm-alert-button-group {
+  margin: 30px 30px 15px 30px;
+  justify-content: flex-end;
+  justify-content: center;
+}
+
+.react-confirm-alert-button-group>button {
+  font-size: 16px;
+  padding: 9px 17px;
+  background-color: #444;
+  transition: background-color 0.2s linear;
+}
+
+.react-confirm-alert-button-group>button:hover {
+  background-color: #e37222;
+}
+
+.react-confirm-alert-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  animation-duration: 0.3s;
+}
+
+
+.collapse-all-btn {
+  background-image: url('/images/chevron-double-down.svg');
+  background-repeat: no-repeat;
+  float: right;
+  height: 14px;
+  margin-right: 10px;
+  margin-top: 4px;
+  width: 12px;
+}
+
+.collapse-all-btn:focus {
+  outline: 0;
+}
+
+.collapse-all-btn.expanded {
+  transform: rotate(180deg);
+  margin-right: 8px;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid #ccc;
+}
+
+/* sticky headers */
+
+
+.search-details-header.sticky {
+  height: 127px;
+}
+
+.sticky-header-section  {
+  margin: auto;
+  width: 1160px;
+  padding: 0 10px;
+}
+
+.sticky-header-section {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: auto;
+  /* width: 100%; */
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+
+  background-color: white;
+  border-bottom: solid 1px lightgrey;
+  z-index: 999;
+  height: 136px;
+}
+section.sticky-header-section {
+  height: 136px;
+}
+
+/* sticky trials */
+
+.iframe-wrap {
+  position: fixed;
+  top: 0;
+  right:0;
+  bottom:0;
+  left: 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.parent-sticky {
+  position: absolute;
+  top:200px;
+  left:0;
+  /* width: 100%; */
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+  height: 100%;
+}
+.child-sticky {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  margin: auto;
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+  /* width: 100%; */
+  background-color: white;
+  border-bottom: solid 1px lightgrey;
+  z-index: 999;
+  height: 136px;
+}
+
+.info-box {
+  background-color: #ECF9FB;
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+
+/**Table */

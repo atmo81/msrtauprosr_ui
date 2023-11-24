@@ -1,0 +1,85 @@
+/*
+  Style for home Module
+
+ */
+
+
+.home-form {
+  margin-top: 40px;
+}
+
+.home-title {
+  /* margin-top: 50px; */
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgba(0,0,0,0.87);
+}
+
+
+.home-label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgba(0,0,0,0.87);
+}
+
+ .home-input {
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  border: 1px solid #ADADAD;
+  border-radius: 2px;
+
+  padding: 0 10px;
+  height: 48px;
+  width: 100%;
+  line-height: 48px;
+
+  /* text-align: center; */
+
+  color: black;
+  font-size: 14px;
+
+}
+
+.home-input:focus {
+  outline: none;
+  border: solid 1px #8c8c8c;
+  box-shadow: 1px 1px 1px 1px #8c8c8c;
+}
+
+.home-button {
+  margin-top: 20px;
+  border: 2px solid blue;
+  border-width: 0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 50px;
+  width: 100%;
+  background-color: #3366ff;
+  /* background-color: #323232; */
+  text-align: center;
+
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+
+}
+
+.home-button:hover {
+  cursor: pointer;
+  color: #323232;
+
+}
+
+.home-button:disabled {
+    border-color: #E0E0E0;
+    background-color: #E0E0E0;
+    color: #666666;
+}
+
+.home-button:disabled:hover {
+  cursor: default;
+}

@@ -1,0 +1,68 @@
+{
+  "app.headline": "Developed by AM",
+  "app.confidentiality": "© 2023–2024 msrtauprosr Ltd. Alle Rechte vorbehalten",
+
+  "txbSearch.searchButton": "Search",
+  "txnSvc.error": "Oops! try again later!",
+
+  "form.username": "User Name",
+  "form.pwd": "Password",
+  "form.login": "Sign In",
+  "global.signout": "Sign out",
+
+  "navigage.back": "Back",
+
+  "home.title": "Home Page Risks Dataentry",
+  "home.enter": "Enter",
+
+
+  "login.title": "Sign in to MSR",
+  "login.username": "Username",
+  "login.pwd": "Password",
+  "login.login": "Sign In",
+
+
+  "placeholder.last": "tmp",
+  "userentry.titlenew": "New User",
+  "userentry.titleedit": "Edit User",
+  "userentry.fname": "First Name",
+  "userentry.lname": "Last Name",
+  "userentry.username": "UserName",
+  "userentry.password": "Password",
+  "userentry.isenabled": "Is Enabled",
+  "userentry.usertype" : "User Type",
+  "userlist.titleform": "Users List",
+  "userlist.newuser": "New User",
+
+  "risksentry.head": "MSR TauProSR - Soll- und Grenzwerte",
+  "risksentry.titlenew": "Folgende Soll- und Grenzwerte werden zur Berechnung des Scheibenbeschlagsrisikos und der resultierenden Alarmierung verwendet:",
+  
+  "risksentry.inform": "Bitte erfassen Sie hier den neuen Wert? Achtung: Der neue Wert wird sofort ab dem Zeitpunkt des Speicherung  in die Berechnungen einbezogen. Ändern Sie den Wert nur, wenn Sie sich uber die Konsequenzen bewusst sind!",
+  "risksentry.old.value": "Bisher",
+  "risksentry.new.value": "Neu",
+  "risksentry.text": "Wert",
+  "risksentry.save": "Speichern",
+  "risksentry.cancel": "Abberchen",
+
+
+  "risks.traffic.control":"Verkehrslenkung (Sammelalarm)",
+  "risks.tc.fogging.limit":"Beschlagsgrenzwert",
+  "risks.tc.fog.limit":"Nebelgrenzwert",
+  "risks.tc.collective.alarm": "Sammelalarm",
+  "risks.tc.collective.alarm.minimaldauer": "Minimaldauer",
+  "risks.tc.collective.alarm.minimaldauer.nch": "nach Datenfehler",
+
+  "risks.tunnel.ventilation":"Tunnellüftung (Lüftungsanforderung)",
+  "risks.tv.dew.point.different":"Taupunktdifferenz-Freigabegrenzwert",
+
+  "risks.tv.duration.ventualtion": "Laufzeit der Lüftungsanforderung für Mittenabsaugung",
+  "risks.tv.blocking.period": "Sperrdauer für Lüftungsanforderung",
+
+  "risks.sensor.monitoring":"Sensorüberwachung(Sensorfehler)",
+  "risks.sm.dp.sensor.different.limit1":"DP-Sensordifferenz-Grenzwert 1 (Aussen/Portal/Mitte)",
+  "risks.sm.dp.sensor.different.limit2":"DP-Sensordifferenz-Grenzwert (zwischen Portal + Mitte)",
+  "risks.sm.block.error":"Blockfehler (Zusammenhängende Fehlerzeiten)",
+  "risks.sm.dp.totalerror":"Summenfehler (nicht zusammenhangende Fehlersumme)",
+  "risk.on": "EIN",
+  "risk.off":"AUS"
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "beschlagsgrenzwert_verkehrslenkung_ein": 2.5,
+        "beschlagsgrenzwert_verkehrslenkung_aus": 4,
+        "nebelgrenzwert_verkehrslenkung_ein": 1,
+        "nebelgrenzwert_verkehrslenkung_aus": 2,
+        "sammelalarm_minimaldauer": 120,
+        "sammelalarm_datenfehler_minimaldauer": 10,
+        "beschlagsgrenzwert_lueftung_ein": 2.5,
+        "beschlagsgrenzwert_lueftung_aus": 4,
+        "nebelgrenzwert_lueftung_ein": 1,
+        "nebelgrenzwert_lueftung_aus": 2,
+        "taupunktdifferenz_freigabegrenzwert_ein": 2.5,
+        "taupunktdifferenz_freigabegrenzwert_aus": 2.3,
+        "laufzeit_lueftung_minimaldauer": 105,
+        "sperrung_lueftung_minimaldauer": 15,
+        "aussen_innen_temperatur_gewichtung": 0.5,
+        "fahrzeugheizung_k1": 2,
+        "fahrzeugheizung_k2": 0.9,
+        "wassergehalt_h1": -30,
+        "wassergehalt_h2": -17,
+        "sensor_differenzgrenzwert_1": 4,
+        "sensor_differenzgrenzwert_2": 6,
+        "blockfehler_toleranzzeit": 120,
+        "summenfehler_toleranzzeit": 240,
+        "time": "2023-10-01T07:00:00Z"
+    }
+]
