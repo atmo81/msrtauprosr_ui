@@ -12,6 +12,8 @@ import AppFooter from './AppFooter';
 
 import Login from '../modules/Security/Login';
 import Risks from '../modules/Risks/RisksHome';
+import Home  from '../modules/Home/Home';
+import Assignments  from '../modules/Assignments/Assignments';
 
 import RisksEntry from '../modules/Risks/RisksEntry';
 import TestPage from '../modules/Test/TestPage';
@@ -92,7 +94,9 @@ class App extends Component {
           {/* <AppHeader />  */}
             <Switch>
               <Route path='/login' component={Login} />
-              <Route path='/home' component={Risks} />
+              <Route path='/home' component={Home} />
+              <Route path='/assignments' component={Assignments} />
+              <Route path='/risks' component={Risks} />
               <Route path='/entry' component={RisksEntry} />
               <Route path='/test' component={TestPage} />
             </Switch>

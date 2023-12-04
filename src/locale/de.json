@@ -12,8 +12,12 @@
 
   "navigage.back": "Back",
 
-  "home.title": "Home Page Risks Dataentry",
-  "home.enter": "Enter",
+  "home.title": "MSRTauProSR - Hauptfenster",
+  "home.main": "Administration der Taupunktsensoren und der Sol- und Grenzwerte für die Berechnung der Scheibenbeschlagprognose.",
+  "home.status": "Sensorstatus",
+  "home.mapping": "Sensorzuodnung",
+  "home.values": "Soll- und Grenzwerte",
+  "home.history": "Sensorhistorie",
 
 
   "login.title": "Sign in to MSR",

@@ -25,10 +25,9 @@ class RisksListItem extends Component {
     editValue =(e) => {
       const id = e.target.id;
       const value = document.getElementById('t_' + id).value;
-      goTo('/entry#'+ id + '-' + value); }
+      goTo('/entry#'+ id + '-' + value); 
+    }
 
-
- 
 
   render() {
     const { item } = this.props;

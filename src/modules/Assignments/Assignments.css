@@ -1,0 +1,99 @@
+/*
+  Style for assignments Module
+
+ */
+
+
+ .assignments-form {
+    margin-top: 0px;
+   
+  }
+  
+  .assignments-title {
+    /* margin-top: 50px; */
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: rgba(0,0,0,0.87);
+  }
+  .assignments-page {
+    background-image:  url('/images/backgroundform2.png');
+    height: 300px;
+    width: 1500px;
+  }
+  
+  .assignments-label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.87);
+  }
+  
+   .assignments-input {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  
+    border: 1px solid #ADADAD;
+    border-radius: 2px;
+  
+    padding: 0 10px;
+    height: 48px;
+    width: 100%;
+    line-height: 48px;
+  
+    /* text-align: center; */
+  
+    color: black;
+    font-size: 14px;
+  
+  }
+  
+  .assignments-input:focus {
+    outline: none;
+    border: solid 1px #8c8c8c;
+    box-shadow: 1px 1px 1px 1px #8c8c8c;
+  }
+  
+  .assignments-button {
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #333;
+
+  }
+  
+  .assignments-button:hover {
+    cursor: pointer;
+    color: #323232;
+  
+  }
+  
+  .assignments-button:disabled {
+      border-color: #E0E0E0;
+      background-color: #E0E0E0;
+      color: #666666;
+  }
+  
+  .assignments-button:disabled:hover {
+    cursor: default;
+  }
+  
+  .assignments-fixed-height {
+    height: 300px;
+    width: 1500px;
+  }
+
+  .assignments-table thead td{ 
+
+    width: 100px;
+  }
+  .assignments-table tbody tr td{ 
+    border: dotted 1px gray;
+    width: 100px;
+  }

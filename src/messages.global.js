@@ -99,6 +99,22 @@ export default defineMessages({
     id: 'home.enter',
     defaultMessage: 'Enter',
   },
+  'home.status': {
+    id: 'home.status',
+    defaultMessage: 'status',
+  },
+  'home.mapping': {
+    id: 'home.mapping',
+    defaultMessage: 'mapping',
+  },
+  'home.values': {
+    id: 'home.values',
+    defaultMessage: 'values',
+  },
+  'home.history': {
+    id: 'home.history',
+    defaultMessage: 'history',
+  },
   //userentry
   'userentry.save': {
     id: 'userentry.save',

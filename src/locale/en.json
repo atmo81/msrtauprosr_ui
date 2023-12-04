@@ -12,8 +12,12 @@
 
   "navigage.back": "Back",
 
-  "home.title": "Home Page MSRTauProSR",
-  "home.enter": "Enter",
+  "home.title": "MSRTauProSR - Main Window",
+  "home.main": "Administration of the dew point sensors and the target and limit values  for calculating the window fogging forecast.",
+  "home.status": "Sensor Status",
+  "home.mapping": "Sensor Mapping",
+  "home.values": "Target and limit values",
+  "home.history": "Sensor History",
 
 
   "login.title": "Sign in to MSRTauProSR",
